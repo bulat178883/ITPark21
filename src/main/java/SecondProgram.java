@@ -1,6 +1,5 @@
 public class SecondProgram {
 
-    int arg1, arg2;
 
     public static void main(String[] args) {
         System.out.println("Привет, мир!");
@@ -15,12 +14,14 @@ public class SecondProgram {
 
     }
 
-    public static long summa (int arg1, int arg2){
-    int result = arg1 + arg2;
-    return result;
+    public static long summa(int arg1, int arg2) {
+        int result = arg1 + arg2;
+        return result;
     }
 
-    public static long minus (int arg1, int arg2) {return arg1 - arg2; }
+    public static long minus(int arg1, int arg2) {
+        return arg1 - arg2;
+    }
 }
 
 
