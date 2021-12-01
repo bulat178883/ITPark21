@@ -1,6 +1,12 @@
 package lesson8;
 
+import java.io.File;
+
 public class Animal {
+
+     File file = new File ("лай.wav");
+
+
 
     private String name;
     private int age;
