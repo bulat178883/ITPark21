@@ -9,13 +9,15 @@ public class Animal {
 
 
     private String name;
-    private int age;
+    private String age;
     private String kind;
+    private String voice;
 
-    public Animal(String name, int age, String kind) {
+    public Animal(String name, String age, String kind, String voice) {
         this.name = name;
         this.age = age;
         this.kind = kind;
+        this.voice = voice;
     }
 
     @Override
@@ -24,7 +26,9 @@ public class Animal {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", kind='" + kind + '\'' +
+                ", voice='" + voice + '\'' +
                 '}';
     }
 }
+
 
