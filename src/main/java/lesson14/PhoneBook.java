@@ -10,7 +10,7 @@ public class PhoneBook {
 
     public static void main(String[] args) {
         List<Subscriber> subscribersList = new ArrayList<>();
-        for (int i = 0; i < 10000; i++) {
+        for (double i = 0; i < 10000; i++) {
         subscribersList.add(generateSubscriber());
         }
 
